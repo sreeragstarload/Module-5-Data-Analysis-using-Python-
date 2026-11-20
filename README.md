@@ -7,10 +7,12 @@ An end-to-end Exploratory Data Analysis (EDA), data cleaning, statistical profil
 
 ---
 
- ###📌 Project Overview
+ 📌 Project Overview
+
 Social media platforms generate high volumes of user interaction metrics—likes, comments, shares, watch time, and impressions. This project processes and analyzes `social_media_engagement_5000.csv` using Python to uncover content performance patterns, audience behavior, and key engagement drivers.
 
-##🎯 Objectives
+🎯 Objectives
+
 1. **Data Setup & Cleaning:** Handle missing values, standardize categorical labels, validate interaction-to-impression ratios, and engineer features such as `hashtag_count` and `engagement_score`.
 2. **Exploratory Data Analysis (EDA):** Evaluate distributions, correlations, and multi-dimensional group aggregations across post types, countries, and sentiments.
 3. **Statistical Profiling:** Compute central tendency, dispersion, percentiles, skewness, and kurtosis across core engagement metrics.
@@ -18,7 +20,8 @@ Social media platforms generate high volumes of user interaction metrics—likes
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+🛠️ Tech Stack & Libraries
+
 * **Language:** Python 3.x
 * **Data Manipulation:** `Pandas`, `NumPy`
 * **Visualization:** `Matplotlib`, `Seaborn`, `Plotly`
@@ -26,14 +29,15 @@ Social media platforms generate high volumes of user interaction metrics—likes
 
 ---
 
-## 📂 Repository Structure
+ 📂 Repository Structure
 ```text
 ├── module_5_assignment_social_media_engagement.ipynb   # Main Jupyter Notebook with code, plots & outputs
 ├── social_media_engagement_5000.csv                    # Raw dataset (5,000 records, 19 features)
 ├── Social_Media_Engagement_Summary.pdf                 # One-page executive summary report
 └── README.md                                           # Project documentation
 
-##🔍 Key Analytical Findings
+🔍 Key Analytical Findings
+
 1. Content & Category Performance
 Post Types: Videos lead in average engagement rate (1.12%) and total engagement score (12,665 avg interactions), whereas Reels have the highest posting volume (1,283 posts) but a lower average engagement rate (0.78%).
 
@@ -50,6 +54,16 @@ Device & Timing: Mobile devices yield the longest watch time (4,088 sec) and hig
 
 3. Sentiment Insights
 Negative Sentiment posts generate the highest average engagement rate (1.04%) and total interactions (12,731), while Neutral posts spark the highest average comment activity (1,528 comments).
+
+🚀 How to Run This Project
+1  git clone[
+
+2  Navigate to the project folder and install required packages
+
+  pip install pandas numpy matplotlib seaborn plotly jupyter
+
+3  Launch Jupyter Notebook and open
+ jupyter notebook
 
 
 
